@@ -23,7 +23,7 @@ env:
   FLUTTER_VERSION: 3.27.3
   PYTHONUTF8: 1
   # flet-cli version to install for `flet build`
-  FLET_CLI_VERSION: 0.27.5
+  FLET_CLI_VERSION: 0.27.6
 
   # Disables rich text formatting in Flet CLI output
   FLET_CLI_NO_RICH_OUTPUT: 1
