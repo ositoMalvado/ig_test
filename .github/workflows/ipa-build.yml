@@ -21,6 +21,8 @@ env:
   BUILD_VERSION: 1.0.0
   PYTHON_VERSION: 3.13
   FLUTTER_VERSION: 3.27.0
+  PYTHONUTF8: 1
+
 
 jobs:
   build:
