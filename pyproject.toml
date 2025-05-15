@@ -3,7 +3,7 @@ name = "ig-test"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11.9"
 dependencies = [
     "flet[all]>=0.28.2",
     "flet-image-gallery-saver @ git+https://github.com/ositoMalvado/image_gallery",
