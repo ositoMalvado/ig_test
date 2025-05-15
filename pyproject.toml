@@ -1,0 +1,28 @@
+[project]
+name = "ig-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flet[all]>=0.28.2",
+    "flet-image-gallery-saver @ git+https://github.com/ositoMalvado/image_gallery",
+
+]
+
+[tool.flet]
+org = "pj.code"
+product = "ImageGalley"
+company = "ositoMalvado"
+copyright = "Copyright (C) 2024 by Julian Perez"
+build_number = 1
+
+[tool.flet.splash]
+color = "#2f2f2f"
+dark_color = "#2f2f2f"
+web = true
+ios = true
+android = true
+
+[tool.flet.ios.info] # --info-plist
+NSPhotoLibraryAddUsageDescription = "This app uses location service when in use."
