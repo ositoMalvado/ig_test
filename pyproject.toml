@@ -25,3 +25,19 @@ android = true
 
 [tool.flet.ios.info] # --info-plist
 NSPhotoLibraryAddUsageDescription = "This app uses location service when in use."
+
+
+
+[tool.flet.app]
+path = "src"
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.28.2",
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "0.28.2"}
