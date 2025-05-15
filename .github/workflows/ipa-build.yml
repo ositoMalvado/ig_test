@@ -22,6 +22,14 @@ env:
   PYTHON_VERSION: 3.12.8
   FLUTTER_VERSION: 3.27.3
   PYTHONUTF8: 1
+  # flet-cli version to install for `flet build`
+  FLET_CLI_VERSION: 0.27.5
+
+  # Disables rich text formatting in Flet CLI output
+  FLET_CLI_NO_RICH_OUTPUT: 1
+
+  # Disables progress bars when using UV
+  UV_NO_PROGRESS: 1
 
 jobs:
   build:
